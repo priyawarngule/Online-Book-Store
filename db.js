@@ -1,19 +1,22 @@
-const express = require("express");
-const util = require("util");
 const mysql2 = require("mysql2");
+const util = require("util");
 
-
-
-var conn = mysql2.createConnection({
-    host:'bqpty9r33vro6a5ehwsk-mysql.services.clever-cloud.com',
-    user:'uzpvi6y5iukezz8x',
-    password:'uzpvi6y5iukezz8x',
-    database:'bqpty9r33vro6a5ehwsk'
-    
+const conn = mysql2.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
+  port: 3306
 });
 
+conn.connect((err) => {
+  if (err) {
+    console.error("❌ DB Connection Error:", err.message);
+  } else {
+    console.log("✅ Database Connected");
+  }
+});
 
-var exe = util.promisify(conn.query).bind(conn);
-
+const exe = util.promisify(conn.query).bind(conn);
 
 module.exports = exe;
