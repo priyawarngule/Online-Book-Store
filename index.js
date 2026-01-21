@@ -15,4 +15,4 @@ app.use("/admin",admin_route);
 
 app.use("/admin/home",home_route);
 
-app.listen(1000);
+app.listen(3306);
