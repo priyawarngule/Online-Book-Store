@@ -1,0 +1,258 @@
+<%- include('navbar.ejs') %>
+
+<style>
+  .about-header {
+  background-image: url("https://www.thisiscolossal.com/wp-content/uploads/2023/05/temple-of-books-6.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+}
+
+.about-header .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.about-header h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.about-header p {
+  font-size: 18px;
+}
+</style>
+<section class="about-header">
+  <div class="overlay">
+    <h1>About Us</h1>
+    <p>Discover our story and love for books</p>
+  </div>
+</section>
+
+
+<div class="container">
+<div class="row">
+    <div class="col-md-6">
+
+           <h1 class="text-center m-5">ABOUT US</h1>
+
+<h5 style="line-height:27px;">Welcome to [Your Bookstore Name] — your one-stop destination for everything books!
+
+At [Your Bookstore Name], we believe that every great journey begins with a story. Our mission is to bring the joy of reading to book lovers everywhere by making a wide selection of books accessible, affordable, and easy to find.<br><br>
+
+We offer:
+✨ A diverse collection — from timeless classics and bestselling novels to self-help, academic titles, children’s books, and more.<br>
+📖 Books for every reader — whether you love fiction, non-fiction, fantasy, romance, mystery, or educational books.<br>
+🚚 Fast & reliable delivery — so your next great read arrives right at your doorstep.<br>
+💡 Easy online shopping — simple browsing, secure checkout, and customer support that cares.<br>
+
+We’re passionate about books and committed to building a community where readers can discover new voices, rediscover old favorites, and fall in love with reading again and again.<br>
+
+Thank you for choosing [Your Bookstore Name] — where every page turns into a new adventure.</h5>
+
+    </div>
+
+
+    <div class="col-md-6 p-5">
+
+        <img src="https://media.gettyimages.com/id/1128501808/photo/stack-of-books-with-a-candle-and-christmas-baubles.jpg?s=612x612&w=0&k=20&c=SqAN9qza3ckSWkxwFOu5E2jSwVnoE_VyHuvz_aeRfww=" style="height: 500px; width:100%;" class="m-5">
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Cards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://images.pexels.com/photos/1926988/pexels-photo-1926988.jpeg">
+
+  <style>
+    .book-card img {
+      height: 220px;
+      object-fit: cover;
+    }
+    .price {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-4">
+  <div class="row g-4">
+   <h3 class="text-danger text-center"> Available books </h3>
+
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card book-card">
+        <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJvb2t8ZW58MHx8MHx8fDA%3D" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">The Alchemist</h5>
+          <p class="card-text">Paulo Coelho</p>
+          <p class="price">₹299</p>
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card book-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP5FaK-QS_zaL_KqfT5VyErIhy-2N1KUzalw&s" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Rich Dad Poor Dad</h5>
+          <p class="card-text">Robert Kiyosaki</p>
+          <p class="price">₹349</p>
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card book-card">
+        <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Ym9va3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Atomic Habits</h5>
+          <p class="card-text">James Clear</p>
+          <p class="price">₹399</p>
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-4">
+      <div class="card book-card">
+        <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Ym9va3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Think and Grow Rich</h5>
+          <p class="card-text">Napoleon Hill</p>
+          <p class="price">₹279</p>
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-md-4">
+      <div class="card book-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlBpE3mpSnhOmv7ryGl61-xuttwY9WdP2dWg&s" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">The Power of Now</h5>
+          <p class="card-text">Eckhart Tolle</p>
+          <p class="price">₹320</p>
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-md-4">
+      <div class="card book-card">
+        <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Ym9va3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Ikigai</h5>
+          <p class="card-text">Héctor García</p>
+          <p class="price">₹299</p>
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap CSS -->
+<link href="https://thumbs.dreamstime.com/b/open-book-books-school-board-back-to-education-copy-space-text-411522924.jpg" rel="stylesheet">
+
+<div class="container mt-4">
+  <div class="row">
+    <h2 class="text-danger text-center">New Biopick</h2>
+    <div class="col-md-6">
+
+      <div class="card shadow">
+        <img src="https://thumbs.dreamstime.com/b/open-book-books-school-board-back-to-education-copy-space-text-411522924.jpg"
+             class="card-img-top" alt="Book Image" style="height:300px;">
+            
+
+        <div class="card-body">
+          <h5 class="card-title">The Fraternity of the Stone</h5>
+          <p class="card-text"><strong>Author:</strong> htpp Morrell</p>
+          <p class="card-text"><strong>Category:</strong> Thriller</p>
+          <p class="card-text"><strong>Language:</strong> English</p>
+          <p class="card-text">
+            A fast-paced thriller involving political conspiracy and suspense.
+          </p>
+
+          <h6 class="text-success">Price: ₹399</h6>
+
+          <a href="#" class="btn btn-primary w-100 mt-2">Buy Now</a>
+        </div>
+      </div>
+
+    </div>
+ 
+    <div class="col-md-6">
+
+      <div class="card shadow">
+        <img src="https://img.bookchor.com/bookchor/bookchor-sale-media/2025110381715.webp"
+             class="card-img-top" alt="Book Image" style="height:300px;">
+
+        <div class="card-body">
+          <h5 class="card-title">The Fraternity of the Stone</h5>
+          <p class="card-text"><strong>Author:</strong> David Morrell</p>
+          <p class="card-text"><strong>Category:</strong> Thriller</p>
+          <p class="card-text"><strong>Language:</strong> English</p>
+          <p class="card-text">
+            A fast-paced thriller involving political conspiracy and suspense.
+          </p>
+
+          <h6 class="text-success">Price: ₹299</h6>
+
+          <a href="#" class="btn btn-primary w-100 mt-2">Buy Now</a>
+        </div>
+      </div>
+
+    </div>
+ 
+  </div>
+</div>
+<%- include('footer') %>

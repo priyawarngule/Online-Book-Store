@@ -1,0 +1,139 @@
+<%- include('navbar.ejs') %>
+<style>
+.about-header {
+  background-image: url("https://www.thisiscolossal.com/wp-content/uploads/2023/05/temple-of-books-6.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+}
+
+.about-header .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.about-header h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.about-header p {
+  font-size: 18px;
+}
+.custom-card{
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  transition: transform .4s ease;
+}
+.custom-card:hover{
+  transform: translateY(-6px);
+}
+.custom-img{
+  border-radius: 16px;
+  object-fit: cover;
+}
+</style>
+
+<!-- About Header Section -->
+<section class="about-header">
+  <div class="overlay">
+    <h1>Author</h1>
+    <p>Discover our story and love for books</p>
+  </div>
+</section>
+
+
+<div class="container my-5">
+  <div class="custom-card p-4">
+    <div class="row align-items-center">
+
+      <!-- Left Content -->
+      <div class="col-lg-6 col-md-6 col-12 mb-4 mb-md-0">
+        <h2 class="mb-3">
+          <i class="fa-solid fa-pen-nib text-primary me-2"></i>
+        RAW RAJANDANAN
+        </h2>
+        <p class="text-secondary">
+          Our writers create clear, engaging, and high-quality content.
+          They focus on accuracy, creativity, and reader satisfaction
+          to deliver meaningful and valuable information.
+        </p>
+        <a href="#" class="btn btn-primary mt-3">Read More</a>
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-lg-6 col-md-6 col-12 text-center">
+        <img src="https://t4.ftcdn.net/jpg/02/32/16/11/360_F_232161181_HP9vaSVs2tk2G3o1jfVH5QG7BceWnlyu.jpg"
+             class="img-fluid custom-img"
+             alt="Writer Image">
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+<div class="container my-5">
+  <div class="custom-card p-4">
+    <div class="row align-items-center">
+
+      <div class="col-lg-6 col-md-6 col-12 text-center">
+        <img src="https://media.istockphoto.com/id/1478316046/photo/portrait-of-high-school-teacher-at-school-library.jpg?s=612x612&w=0&k=20&c=sSU4PQgVZXW6jiddn8YcB3s2F_Vge5RekkWBlMiUKuU="
+             class="img-fluid custom-img"
+             alt="Writer Image">
+      </div>
+
+
+       <div class="col-lg-6 col-md-6 col-12 mb-4 mb-md-0">
+        <h2 class="mb-3">
+          <i class="fa-solid fa-pen-nib text-primary me-2"></i>
+        William Shakespeare
+        </h2>
+        <p class="text-secondary">
+          Our writers create clear, engaging, and high-quality content.
+          They focus on accuracy, creativity, and reader satisfaction
+          to deliver meaningful and valuable information.
+        </p>
+        <a href="#" class="btn btn-primary mt-3">Read More</a>
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+
+<div class="container my-5">
+  <div class="custom-card p-4">
+    <div class="row align-items-center">
+
+      <!-- Left Content -->
+      <div class="col-lg-6 col-md-6 col-12 mb-4 mb-md-0">
+        <h2 class="mb-3">
+          <i class="fa-solid fa-pen-nib text-primary me-2"></i>
+        Charles Dickens
+        </h2>
+        <p class="text-secondary">
+          Dan Brown is a world-famous American author best known for his thriller and mystery novels.<br> His stories often combine history, religion, art, symbols, and secret societies, which makes his books exciting and thought-provoking.
+        </p>
+        <a href="#" class="btn btn-primary mt-3">Read More</a>
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-lg-6 col-md-6 col-12 text-center">
+        <img src="https://thumbs.dreamstime.com/b/writer-work-handsome-young-sitting-table-writing-something-his-sketchpad-31869272.jpg"
+             class="img-fluid custom-img"
+             alt="Writer Image">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<%- include('footer') %>

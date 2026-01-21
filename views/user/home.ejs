@@ -1,0 +1,327 @@
+<%- include('navbar.ejs') %>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+.carousel-item{
+  position: relative;
+}
+
+.carousel-item img{
+  width:100%;
+  height:80vh;
+  object-fit:cover;
+}
+
+/* Overlay */
+.slider-overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.55);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  opacity:0;
+  transition:0.4s ease;
+}
+
+/* Text style */
+.slider-overlay h1{
+  color:#fff;
+  font-size:3.5rem;
+  font-weight:700;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+/* Hover effect */
+.carousel-item:hover .slider-overlay{
+  opacity:1;
+}
+</style>
+
+<div id="fullSlider" class="carousel slide"
+     data-bs-ride="carousel"
+     data-bs-interval="1000"
+     data-bs-pause="false"
+     data-bs-touch="true">
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66"
+           class="d-block w-100">
+      <div class="slider-overlay">
+        <h1>Guru Book Store</h1>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+           class="d-block w-100">
+      <div class="slider-overlay">
+        <h1>Guru Book Store</h1>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d"
+           class="d-block w-100">
+      <div class="slider-overlay">
+        <h1>Guru Book Store</h1>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+
+<h1 class="text-center m-5">ABOUT US</h1>
+
+<h5 style="line-height:27px;">Welcome to GURU Bookstore — your one-stop destination for everything books!
+
+At  GURU Bookstore, we believe that every great journey begins with a story. Our mission is to bring the joy of reading to book lovers everywhere by making a wide selection of books accessible, affordable, and easy to find.<br><br>
+
+We offer:
+✨ A diverse collection — from timeless classics and bestselling novels to self-help, academic titles, children’s books, and more.<br>
+📖 Books for every reader — whether you love fiction, non-fiction, fantasy, romance, mystery, or educational books.<br>
+🚚 Fast & reliable delivery — so your next great read arrives right at your doorstep.<br>
+💡 Easy online shopping — simple browsing, secure checkout, and customer support that cares.<br>
+
+We’re passionate about books and committed to building a community where readers can discover new voices, rediscover old favorites, and fall in love with reading again and again.<br>
+
+Thank you for choosing GURU Bookstore -  where every page turns into a new adventure.</h5>
+          </div>
+
+<div class="col-md-6 p-5">
+
+        <img src="https://media.istockphoto.com/id/1193287049/photo/bookshelves-in-modern-public-library.jpg?s=612x612&w=0&k=20&c=Ri3YI-iK_uo9SMzvJ_Z2La_D0kHJPS8ZK1ziXWTDya0=" style="height: 500px; width:100%;" class="m-5">
+    </div>
+
+    </div>
+</div>
+
+</div>
+    
+</div>
+</div>
+
+</div>
+
+
+
+<div class="container mt-5">
+     <div class="row">
+       <h3 class="m-5 text-center text-bold">Some sample of books</h3>
+    <!-- Card 1 -->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 text-center">
+        <img src="https://img.bookchor.com/bookchor/bookchor-sale-media/202511032096.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">c++</h5>
+          <p class="card-text">mmmm.</p>
+          <a href="/contact" class="btn btn-primary">View</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 text-center">
+        <img src="https://img.bookchor.com/bookchor/bookchor-sale-media/2025110361736.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">html</h5>
+          <p class="card-text">ptttttt.</p>
+          <a href="/contact" class="btn btn-primary">View</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 text-center">
+        <img src="https://img.bookchor.com/bookchor/bookchor-sale-media/2025110337337.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Maha bharat granth</h5>
+          <p class="card-text">wr.walmiki</p>
+          <a href="/contact" class="btn btn-primary">purchase</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 text-center">
+        <img src="https://marketing.com.au/wp-content/uploads/2021/02/Effective-Book-Promotion-Ideas-for-Authors.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">php</h5>
+          <p class="card-text">wr.qwe</p>
+          <a href="/contact" class="btn btn-primary">View</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<style>
+.image-card{
+  overflow:hidden;
+  border-radius:15px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.2);
+  transition:0.4s ease;
+}
+
+.image-card img{
+  height:500px;
+  width:100%;
+  object-fit:cover;
+  transition:0.6s ease;
+}
+
+/* Hover Animation */
+.image-card:hover img{
+  transform:scale(1.15) rotate(1deg);
+  filter:brightness(80%);
+}
+
+/* Floating animation */
+.float-animation{
+  animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%{ transform:translateY(0); }
+  50%{ transform:translateY(-15px); }
+  100%{ transform:translateY(0); }
+}
+</style>
+
+<div class="container mt-5">
+  <div class="row justify-content-center g-4">
+<h2 class="text-center text-bold m-5">Book Is Our Real Fried</h2>
+    <div class="col-md-6">
+      <div class="card image-card float-animation">
+        <img src="https://img.freepik.com/free-photo/books-stack-wooden-table_23-2148898286.jpg?semt=ais_hybrid&w=740&q=80"
+             class="card-img-top"
+             alt="Image 1">
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card image-card float-animation" style="animation-delay:1.5s;">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/069/648/408/small/a-stack-of-books-with-an-open-one-on-top-illuminated-by-dramatic-lighting-against-a-dark-background-photo.jpg"
+             class="card-img-top"
+             alt="Image 2">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<style>
+    .auto-scroll-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.auto-scroll-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 20s linear infinite;
+}
+
+.scroll-card {
+  min-width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.scroll-card:hover {
+  transform: scale(1.05);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+</style>
+
+
+
+<div class="container my-5">
+  <h2 class="mb-4 text-primary text-bold">guru Top selling books</h2>
+
+  <div class="auto-scroll-wrapper">
+    <div class="auto-scroll-track">
+
+      <!-- Card 1 -->
+      <div class="card scroll-card col-md-2 p-3">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/044/280/984/small/stack-of-books-on-a-brown-background-concept-for-world-book-day-photo.jpg" class="card-img-top h-100">
+      </div>
+
+       <div class="card scroll-card col-md-2 p-3">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/070/378/570/small/books-and-leaf-stacked-on-stone-symbolizing-learning-and-growth-in-nature-photo.jpg" class="card-img-top h-100 ">
+      </div>
+
+
+      <div class="card scroll-card col-md-2 p-3">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/074/777/142/small/open-blank-book-with-white-pages-resting-on-golden-autumn-leaves-photo.jpeg" class="card-img-top  h-100">
+      </div>
+      <div class="card scroll-card col-md-2 p-3">
+        <img src="https://media.istockphoto.com/id/944631208/photo/education-concept-with-book-in-library.jpg?s=612x612&w=0&k=20&c=uJF-uOU5MRR-iwXqJEPAdXeaH-VJ-nqt6TdKUpEdEkk=" class="card-img-top  h-100">
+      </div>
+      <div class="card scroll-card col-md-2 p-3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3a5hb5zcWpXrW2s0cx47wA7yWOfXNjrPvQ&s" class="card-img-top h-100 ">
+      </div>
+      <div class="card scroll-card col-md-2 p-3">
+        <img src="https://images.pexels.com/photos/415078/pexels-photo-415078.jpeg?cs=srgb&dl=pexels-pixabay-415078.jpg&fm=jpg" class="card-img-top h-100">
+      </div>
+      <div class="card scroll-card col-md-2 p-3">
+        <img src="https://images.pexels.com/photos/11836671/pexels-photo-11836671.jpeg" class="card-img-top h-100">
+      </div>
+<div class="card scroll-card col-md-2 p-3">
+        <img src="https://images.pexels.com/photos/11836671/pexels-photo-11836671.jpeg" class="card-img-top h-100 ">
+      </div>
+    <div class="card scroll-card col-md-2 p-3">
+        <img src="https://media.istockphoto.com/id/482783107/photo/world-of-books.jpg?s=612x612&w=0&k=20&c=9WgP-LFqYrOZKWOCwHvA7tXmDpeNVS7x7b-GZ1yW7xM=" class="card-img-top h-100">
+ 
+      </div>
+      <div class="card scroll-card col-md-2 p-3">
+        <img src="https://images.pexels.com/photos/415078/pexels-photo-415078.jpeg?cs=srgb&dl=pexels-pixabay-415078.jpg&fm=jpg" class="card-img-top h-100 ">
+      </div>
+      
+
+
+ </div>
+ </div>
+  </div>
+
+
+<script>
+const slider = document.querySelector('#fullSlider');
+new bootstrap.Carousel(slider, {
+  interval: 2000,
+  ride: 'carousel',
+  pause: false,
+  wrap: true
+});
+</script>
+
+<%- include('footer') %>
